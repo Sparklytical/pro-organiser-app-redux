@@ -1,0 +1,57 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0a3158;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5rem;
+
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.brand a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.menu li {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.menu li a {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: background-color 0.2s;
+  outline: none;
+}
+
+.activeLink {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.253);
+}
